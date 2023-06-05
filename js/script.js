@@ -4,27 +4,26 @@ const ctx = canvas.getContext ('2d');
 //nariz
 ctx.fillStyle = "black";
     ctx.beginPath();
-    ctx.moveTo(500,300);
-    ctx.lineTo(450,300);
-    ctx.moveTo(500,300);
-    ctx.lineTo(525,330);
-    ctx.lineTo(498,380);
-    ctx.lineTo(450,380);
-    ctx.lineTo(423,350);
-    ctx.lineTo(450,300);
+    ctx.lineTo(450,500);
+    ctx.moveTo(500,500);
+    ctx.lineTo(525,530);
+    ctx.lineTo(498,580);
+    ctx.lineTo(450,580);
+    ctx.lineTo(423,550);
+    ctx.lineTo(450,500);
     ctx.fill();
     ctx.stroke();
 
     //focinho
 ctx.fillStyle = "white";
-ctx.lineWidth = 3;
+ctx.lineWidth = 4;
     ctx.beginPath();
-    ctx.lineTo(500,300);
-    ctx.lineTo(588,150);
-    ctx.lineTo(660,125);
-    ctx.lineTo(830,160);
-    ctx.lineTo(526,330);
-    ctx.lineTo(500,300);
+    ctx.lineTo(500,500);
+    ctx.lineTo(588,350);
+    ctx.lineTo(660,325);
+    ctx.lineTo(830,360);
+    ctx.lineTo(525,530);
+    ctx.lineTo(500,500);
     ctx.fill();
     ctx.stroke();
 
