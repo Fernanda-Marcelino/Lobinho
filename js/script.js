@@ -1,6 +1,7 @@
 var canvas = document.getElementById ('canvas2');
 const ctx = canvas.getContext ('2d'); 
 
+//nariz
 ctx.fillStyle = "black";
     ctx.beginPath();
     ctx.moveTo(500,300);
@@ -13,5 +14,10 @@ ctx.fillStyle = "black";
     ctx.lineTo(440,300);
     ctx.fill();
     ctx.stroke();
+
+    //focinho
+    
+
+    
     
 
