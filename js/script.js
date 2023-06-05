@@ -16,7 +16,7 @@ ctx.fillStyle = "black";
     ctx.stroke();
 
     //focinho
-ctx.fillStyle = "white";
+ctx.fillStyle = "blue";
 ctx.lineWidth = 3;
     ctx.moveTo(580,200);
     ctx.lineTo(500,300);
@@ -24,6 +24,12 @@ ctx.lineWidth = 3;
     ctx.lineTo(588,150);
     ctx.moveTo(587,150);
     ctx.lineTo(660,125);
+    ctx.moveTo(660,125);
+    ctx.lineTo(830,160);
+    ctx.moveTo(830,160);
+    ctx.lineTo(526,330);
+    ctx.moveTo(526,330);
+    ctx.lineTo(500,300);
     ctx.fill();
     ctx.stroke();
 
