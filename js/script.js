@@ -29,7 +29,7 @@ ctx.lineWidth = 3;
     ctx.moveTo(830,160);
     ctx.lineTo(526,330);
     ctx.moveTo(526,330);
-    ctx.lineTo(500,300);
+    ctx.lineTo(500,390);
     ctx.fill();
     ctx.stroke();
 
