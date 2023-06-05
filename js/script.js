@@ -2,9 +2,10 @@ var canvas = document.getElementById ('canvas2');
 const ctx = canvas.getContext ('2d'); 
 
 //nariz
-ctx.fillStyle = "black";
+ctx.fillStyle = "red";
 ctx.lineWidth = 4;
     ctx.beginPath();
+    ctx.strokeStyle = "white"
     ctx.lineTo(450,500);
     ctx.moveTo(500,500);
     ctx.lineTo(525,530);
@@ -31,6 +32,8 @@ ctx.lineWidth = 4;
     ctx.lineTo(525,530);
     ctx.moveTo(525,530);
     ctx.lineTo(500,500);
+    ctx.moveTo(500,500);
+    ctx.lineTo(450,500);
     ctx.fill();
     ctx.stroke();
 
@@ -128,7 +131,7 @@ ctx.lineWidth = 4;
     ctx.lineTo(508,600);
     ctx.fill();
     ctx.stroke();
-
+    
 //pescoço
 ctx.fillStyle = "blue";
 ctx.lineWidth = 4;
@@ -149,27 +152,23 @@ ctx.lineWidth = 4;
     ctx.stroke();
 
 //olho esquerdo
-ctx.fillStyle = "blue";
+ctx.fillStyle = "red";
 ctx.lineWidth = 4;
     ctx.beginPath();
     ctx.moveTo(500,365);
     ctx.lineTo(470,360);
-    ctx.moveTo(470,360);
     ctx.lineTo(500,385);
     ctx.fill();
     ctx.stroke();
 
 //olho direito
-ctx.fillStyle = "blue";
+ctx.fillStyle = "red";
 ctx.lineWidth = 4;
     ctx.beginPath();
     ctx.moveTo(590,370);
     ctx.lineTo(630,370);
-    ctx.moveTo(628,370);
     ctx.lineTo(610,385);
-    ctx.moveTo(610,385);
     ctx.lineTo(580,395);
-    ctx.moveTo(580,395);
     ctx.lineTo(590,370);
     ctx.fill();
     ctx.stroke();
