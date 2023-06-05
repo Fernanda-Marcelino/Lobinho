@@ -11,7 +11,6 @@ ctx.fillStyle = "black";
     ctx.lineTo(440,380);
     ctx.lineTo(410,340);
     ctx.lineTo(440,300);
-    ctx.moveTo
     ctx.fill();
     ctx.stroke();
     
