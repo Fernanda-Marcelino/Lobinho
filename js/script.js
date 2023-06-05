@@ -104,7 +104,72 @@ ctx.lineWidth = 4;
     ctx.fill();
     ctx.stroke();
 
+//queixo
+ctx.fillStyle = "blue";
+ctx.lineWidth = 4;
+    ctx.beginPath();
+    ctx.moveTo(498,580);
+    ctx.lineTo(560,585);
+    ctx.moveTo(560,585);
+    ctx.lineTo(600,565);
+    ctx.moveTo(600,565);
+    ctx.lineTo(670,415);
+    ctx.moveTo(600,565);
+    ctx.lineTo(730,570);
+    ctx.moveTo(730,570);
+    ctx.lineTo(750,350);
+    ctx.moveTo(750,350);
+    ctx.lineTo(830,500);
+    ctx.moveTo(830,500);
+    ctx.lineTo(630,640);
+    ctx.moveTo(630,640);
+    ctx.lineTo(450,580);
+    ctx.moveTo(560,585);
+    ctx.lineTo(508,600);
+    ctx.fill();
+    ctx.stroke();
 
-    
-    
+//pescoço
+ctx.fillStyle = "blue";
+ctx.lineWidth = 4;
+    ctx.beginPath();
+    ctx.moveTo(450,580);
+    ctx.lineTo(500,720);
+    ctx.moveTo(500,720);
+    ctx.lineTo(640,820);
+    ctx.moveTo(640,820);
+    ctx.lineTo(630,640);
+    ctx.moveTo(640,820);
+    ctx.lineTo(830,500);
+    ctx.moveTo(830,500);
+    ctx.lineTo(870,370);
+    ctx.moveTo(870,370);
+    ctx.lineTo(745,290);
+    ctx.fill();
+    ctx.stroke();
 
+//olho esquerdo
+ctx.fillStyle = "blue";
+ctx.lineWidth = 4;
+    ctx.beginPath();
+    ctx.moveTo(500,365);
+    ctx.lineTo(470,360);
+    ctx.moveTo(470,360);
+    ctx.lineTo(500,385);
+    ctx.fill();
+    ctx.stroke();
+
+//olho direito
+ctx.fillStyle = "blue";
+ctx.lineWidth = 4;
+    ctx.beginPath();
+    ctx.moveTo(590,370);
+    ctx.lineTo(630,370);
+    ctx.moveTo(628,370);
+    ctx.lineTo(610,385);
+    ctx.moveTo(610,385);
+    ctx.lineTo(580,395);
+    ctx.moveTo(580,395);
+    ctx.lineTo(590,370);
+    ctx.fill();
+    ctx.stroke();
