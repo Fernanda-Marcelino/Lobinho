@@ -26,8 +26,8 @@ ctx.lineWidth = 4;
     ctx.moveTo(558,355);
     ctx.lineTo(610,325);
     ctx.moveTo(610,325);
-    ctx.lineTo(790,340);
-    ctx.moveTo(790,340);
+    ctx.lineTo(750,350);
+    ctx.moveTo(750,350);
     ctx.lineTo(525,530);
     ctx.moveTo(525,530);
     ctx.lineTo(500,500);
@@ -57,7 +57,7 @@ ctx.lineWidth = 4;
 ctx.fillStyle = "blue";
 ctx.lineWidth = 4;
     ctx.beginPath();
-   ctx.moveTo(420,335);
+    ctx.moveTo(420,335);
     ctx.lineTo(445,300);
     ctx.moveTo(445,300);
     ctx.lineTo(520,250);
@@ -70,7 +70,37 @@ ctx.lineWidth = 4;
     ctx.moveTo(690,290);
     ctx.lineTo(615,235);
     ctx.moveTo(690,290);
-    ctx.lineTo(790,340);
+    ctx.lineTo(750,350);
+    ctx.fill();
+    ctx.stroke();
+
+//orelha esquerda
+ctx.fillStyle = "blue";
+ctx.lineWidth = 4;
+    ctx.beginPath();
+    ctx.moveTo(445,300);
+    ctx.lineTo(420,235);
+    ctx.moveTo(420,235);
+    ctx.lineTo(425,160);
+    ctx.moveTo(425,160);
+    ctx.lineTo(450,150);
+    ctx.moveTo(450,150);
+    ctx.lineTo(540,218);
+    ctx.fill();
+    ctx.stroke();
+
+//orelha direita 
+ctx.fillStyle = "blue";
+ctx.lineWidth = 4;
+    ctx.beginPath();
+    ctx.moveTo(617,210);
+    ctx.lineTo(660,140);
+    ctx.moveTo(660,140);
+    ctx.lineTo(690,130);
+    ctx.moveTo(690,130);
+    ctx.lineTo(740,190);
+    ctx.moveTo(740,190);
+    ctx.lineTo(750,350);
     ctx.fill();
     ctx.stroke();
 
