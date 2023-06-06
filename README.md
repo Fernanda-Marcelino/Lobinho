@@ -1,11 +1,16 @@
 # lobo
-![Captura de tela 2023-06-05 204050](https://github.com/Fernanda-Marcelino/Lobinho/assets/128320607/f70c4a2e-8f93-41c1-9cb9-78f1a013138f)
+
+
+
+![Captura de tela 2023-06-05 204050](https://github.com/Fernanda-Marcelino/Lobinho/assets/128320607/7f64183c-be8e-4132-9319-a39f9636646c)
+
+
+
 
 HTML
 - mudamos o nome do site 
 - definimos o tamanho do canvas 
-- definimos a cor da borda canvas 
-
+- definimos a cor da borda canvas
 
 
 Java script 
